@@ -1,7 +1,7 @@
 /* css variables*/
 :root {
-  --primary-color: #432E30;
-  --primary-color-light: #8E7474;
+  --primary-color: #1A2A30;
+  --primary-color-light: #30424A;
   --accent-color: #FE6A6B;
   --accent-color-light: #FFE4E4;
   --accent-color-dark: #B94B4C;
@@ -17,7 +17,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: white;
 }
 
