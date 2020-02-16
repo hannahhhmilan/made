@@ -102,6 +102,25 @@ html, body {
   font-weight: 600;
 }
 
+/* feature section */
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature__item {
+  max-width: calc(33% - 20px);
+  margin: 0 20px 0 0;
+}
+
+.feature__item .section__title {
+  margin-bottom: 0;
+}
+
+.feature__item p {
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 750px) {
   .wrapper {
     flex-direction: column;
@@ -125,4 +144,12 @@ html, body {
   .doc__nav .selected:after {
     display: none;
   }
+  .feature, .changelog__item {
+    flex-direction: column;
+  }
+  .feature__item {
+    max-width: 100%;
+    margin: 0;
+  }
+
 }
