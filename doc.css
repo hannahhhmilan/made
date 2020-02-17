@@ -115,6 +115,7 @@ html, body {
 
 .feature__item .section__title {
   margin-bottom: 0;
+  font-size: 1em;
 }
 
 .feature__item p {
